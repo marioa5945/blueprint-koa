@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include('./head.art') %>
+</head>
+<body>
+  <div class="home">
+    <div>
+      <h1><%= title %></h1>
+      <% for(var i = 0; i < list.length; i++){ %>
+        <a href="/<%= list[i] %>">- <%= list[i] %></a>
+      <% } %>
+    </div>
+  </div>
+</body>
+</html>

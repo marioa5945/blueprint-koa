@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include('../head.art') %>
+</head>
+<body>
+  <% include('./header.art') %>
+  <main>
+    <% include('./nav.art') %>
+    <div></div>
+    <aside></aside>
+  </main>
+</body>
+</html>

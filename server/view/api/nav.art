@@ -1,0 +1,5 @@
+<nav>
+<% for(var i = 0; i < navList.length; i++){ %>
+  <a href="/<%= navList[i] %>">- <%= navList[i] %></a>
+<% } %>
+</nav>

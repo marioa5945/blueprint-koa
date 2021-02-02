@@ -1,0 +1,15 @@
+<header>
+  <h1><%= title %></h1>
+  <seach>
+    <input type="text" />
+    <button>Seach</button>
+  </seach>
+  <button id="update">Update</button>
+</header>
+<script>
+  $( "#update" ).on( "click", function() {
+    $.post( "/update", function( data ) {
+      console.log(data)
+    });
+  });
+</script>
